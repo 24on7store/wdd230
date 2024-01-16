@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+/* main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+} */
+
+header {
+    background-color: lightslategrey;
+    text-align: center;
+
+}
+
+.header-image {
+    margin-left: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+
+h1 { 
+    color: white;
+    float: right;
+    margin-top: 190px;
+    margin-right: 120px;
+    text-align: right;
+    padding-bottom: 150px;
+}
+
+.vertical-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+
+
+}
+.vertical-nav a {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+
+
+/* 
+nav {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} */
+
+
+  /* Style the navigation links */
+#learning-activities-list {
+    list-style: none; /* Remove default list styles */
+
+
+}
+
+#learning-activities-list li {
+    counter-increment: item; /* Increment the counter for each list item */
+    
+}  
+
+
+#learning-activities-list li a:before {
+    content: counter(item, decimal-leading-zero) ":";
+    list-style: none; /* Remove default list styles */
+    color: black;
+
+}
+#learning-activities-list li a {
+    text-decoration: none;
+    font-size: 12px;
+    
+    
+}
+
+  /* Style the navigation links */
+  nav #card-nav li a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    /* Add some space between list items */
+}
+
+
+
+/*Learning activity*/
+h2 {
+    color: black;
+    text-align: center;
+}
+
+/*Information*/
+h3 {
+    background-color: lightslategrey;
+    color: black;
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    background-color: lightslategrey;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+#lastModified {
+    color: rgb(205, 50, 50);
+    font-size: 12px;
+}
