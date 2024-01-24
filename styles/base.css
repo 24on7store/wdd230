@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: 0 auto;
 
 }
@@ -14,26 +14,37 @@ body {
 } */
 
 header {
-    background-color: lightslategrey;
+    background-color: #0051ff;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 150px;
 
 }
+
+
+
 
 .header-image {
-    margin-left: 120px;
+    /* margin-left: 120px; */
     padding-top: 50px;
     padding-bottom: 50px;
-    
+    width: 100px;
+    height: 150px;
 
 }
+
+
 
 h1 { 
     color: white;
-    float: right;
-    margin-top: 190px;
-    margin-right: 120px;
-    text-align: right;
-    padding-bottom: 150px;
+    flex-direction: row;
+    /* float: right; */
+    /* margin-top: 190px;
+    margin-right: 120px; */
+    /* text-align: right; */
+    /* padding-bottom: 150px; */
 }
 
 .vertical-nav {
@@ -99,19 +110,45 @@ nav {
 }
 
 
+main {
+    display: flex;
+    /* Allow items to wrap to the next line if there's not enough space */
+    flex-wrap: wrap;
+}
 
-/*Learning activity*/
+.card {
+    
+    /* Distribute available space equally among the child elements */
+    flex: 1;
+    /* Add some spacing between the elements */
+    margin: 10px;
+}
+
+
+
+
+
+/* Learning activity*/
 h2 {
     color: black;
     text-align: center;
+    padding-right: 800px;
+ 
+
 }
 
 /*Information*/
 h3 {
-    background-color: lightslategrey;
+    background-color: #0051ff;
     color: black;
     text-align: center;
-}
+  
+    
+} 
+
+
+
+
 
 
 p {
@@ -120,13 +157,13 @@ p {
 
 /*footer*/
 footer{
-    background-color: lightslategrey;
+    background-color: #0051ff;
     color: black;
     text-align: center;
     padding: 10px;
 }
 
 #lastModified {
-    color: rgb(205, 50, 50);
+    color: yellow;
     font-size: 12px;
 }

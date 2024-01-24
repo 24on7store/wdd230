@@ -1,0 +1,12 @@
+@media only screen and (min-width: 600px) {
+    body {
+        
+        
+    }
+    
+.vertical-nav {
+    flex-direction: row;
+}
+
+}
+
