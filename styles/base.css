@@ -101,7 +101,7 @@ nav {
 }
 
   /* Style the navigation links */
-  nav #card-nav li a{
+    nav #card-nav li a{
     text-align: center;
     color: white;
     text-decoration: none;
@@ -112,8 +112,10 @@ nav {
 
 main {
     display: flex;
+    /*feedback*/
+    flex-direction: column;
     /* Allow items to wrap to the next line if there's not enough space */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .card {
@@ -132,8 +134,7 @@ main {
 h2 {
     color: black;
     text-align: center;
-    padding-right: 800px;
- 
+    /* padding-right: 800px; */
 
 }
 
@@ -142,8 +143,6 @@ h3 {
     background-color: #0051ff;
     color: black;
     text-align: center;
-  
-    
 } 
 
 

@@ -6,6 +6,8 @@
     
 .vertical-nav {
     flex-direction: row;
+    /*feedback*/
+    justify-content: center;
 }
 
 }
