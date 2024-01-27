@@ -1,0 +1,264 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* max-width: 800px; */
+    margin: 0 auto;
+
+}
+
+
+
+h1{
+    color: black;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 20px; 
+    font-size: 30px;
+
+}
+
+.airbnb{
+    color: white;
+    grid-template-columns: auto;
+    background-color: darkslategrey;
+    text-align: center;
+    height: 75px;
+    padding: 25px;
+}
+
+h2{
+    /* background-color: rgba(0, 0, 0, 0.772);  */
+    background-color: #3e4444; 
+    /* background-color: rgba(42, 0, 139, 0.4); */
+    color: white;
+    text-align: center;
+}
+/* 
+.pic1, .pic2, .pic3{
+    height: 300px;
+    width: auto;
+
+} */
+
+.pic1, .pic2{
+    height: auto;
+    width: 100%;
+}
+
+.pic3{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    /* padding-top: 30px;
+    padding-bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px; */
+
+}
+
+.contrast h2,
+.contrast p{
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    /* padding-bottom: 30px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+
+    } 
+
+
+    div p{
+        text-align: left;
+    }
+
+.contrast{
+        background-color:black;
+        height: 300px;
+        padding-bottom: 10px;
+    }
+
+.inside p{
+    background-color: white;
+    color: black;
+    
+}
+
+.contrast h5{
+    color: black; 
+    font-size: 25px;
+    background-color: aliceblue;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+/* .hat{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    padding-left: 200px;
+    padding-top:150px ;
+    padding-right: 200px;
+    position: relative;
+    bottom: 100px;
+} */
+
+/* .contrast h6 {
+    color: blue;
+    padding-left: 5000px;
+    background-color: blue;
+}
+     */
+    /* body {
+	max-width: 767px;
+	margin: 0 auto;
+    display: row;
+	grid-template-columns: 1fr fr;
+	font-size: 1rem;
+} */
+/* main {
+	max-width: 767px;
+	margin: 0 auto;
+    display: grid;
+	grid-template-columns: 1fr;
+	font-size: 1rem;
+}
+main section {
+    margin: 0.5rem;
+    border: 1px solid red;
+    background-color: aqua;
+}
+ */
+
+
+/* For all pics*/
+h3{
+    background-color: darkslategrey;
+    color: white;
+}
+
+/*For part 1*/
+/* .design-principles{
+    background-color: gainsboro;
+    
+    background-size: auto;
+    color: white;
+    margin-right: 20px; 
+    border: 1px solid red;
+} */
+
+.subpic1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid  darkslategrey;
+    display: block;
+    margin: auto;
+}
+
+
+    div{
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+/*table*/
+
+table, th, tr {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    width: 450px;
+    height: 50px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* .table {
+    padding-bottom: 10px;
+} */
+h6 {
+    text-align: left;
+    color: black;
+    margin-left: 20px;
+    word-spacing: 145px;
+    font-size: medium;
+
+}
+th {
+    color: black;
+    margin-right: 50px;
+    padding-left: 20px;
+    margin-bottom: 200px;
+}
+.search-btn {
+    background-color: rgba(255, 0, 0, 0.731);
+    color: white;
+    width: 435px;
+    height: 50px;
+    margin-left: 9px;
+    margin-right: 10px;
+    position: relative;
+    text-align:center;
+}
+.below-search-btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:left;
+    font-size: 25px;
+    color: #3e4444;
+}
+
+.airbnb-photos{
+    /* border-radius: 20%; */
+    height: 150px;
+    width: 150px;
+    /* background-color: darkslategray; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    padding: 10px;
+    /* padding-right: 10px;
+    padding-bottom: 10px; */
+    /* border: 1px solid black; */
+
+}
+
+
+section{
+    background-color: lightgray;
+    /* padding-right: 50px; */
+    background-size: auto;
+    color: white;
+    margin-right: 20px; 
+    border: 1px solid black;
+}
+
+
+
+section p{
+    color: black;
+}
+/* .head1{
+    color: white;
+
+} */
+
+
+
+/* .card1{
+    display: grid;
+} */
+/* .card{
+    display: grid;
+} */
+
+
+footer{
+    background-color: #3e4444;
+    color: white;
+    text-align: center;
+}
