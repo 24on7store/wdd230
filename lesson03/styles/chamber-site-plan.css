@@ -64,12 +64,7 @@ header{
 
 .h1, h2, h3{
   text-align: center;
-
-
 }
-
-
-
 footer{
   background-color: #023e8aff;
   color: white;
@@ -97,7 +92,6 @@ footer{
 
 
 .first-row{ 
-  color: whi;
   background-color: aliceblue;
 }
 
