@@ -1,9 +1,22 @@
 @media only  screen and (min-width: 60em) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
-        display: flex;
+        display: flex; 
         /*margin: 20px;
         border: 1px #3e4444;*/
     }
     
-}
+} 
+
+
+
+    /* .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 200px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        transition: 0.3s;
+    } */

@@ -1,53 +1,223 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    /* max-width: 800px; */
-    margin: 0 auto;
+/* For the hamburger*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: blue;
+}
+
+
+li{
+    list-style: none;
 
 }
 
-/* main {
-    max-width: 800px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+a{
+    /* color: brown;  */
+    text-decoration: none; 
+}   
+
+
+
+
+.navbar{
+    min-height: 10px; 
+    display: flex; 
+    /* flex-direction: row; */
+    justify-content: space-between; 
+    align-items: center; 
+    /* padding: 0 auto; */
+    padding:0 100%; 
+    background-color: black;
+ 
+    
+
+
+}
+/* .navbar{
+    min-height: 10px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-color: black; 
+
 } */
 
+
+
+.nav-menu{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}  
+/* .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}   */
+
+
+
+.nav-branding{
+    font-size: 2rem;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+    color: white;
+
+}
+
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+} 
+
+
+.bar{
+    display: flex;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    color: aliceblue;
+
+} 
+
+
+
+/*Double check*/
+
+/* @media(max-width:768px){
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 150px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        transition: 0.3s;
+    }
+ */
+
+
+
+    /* .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 200px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        transition: 0.3s;
+    } */
+
+
+
+    /* .nav-item{
+        margin: 10px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+}  */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* max-width: 800px;  */
+    margin: 0 auto; 
+
+} 
+
+main { 
+    /* max-width: 800px; */
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    gap: 20px;
+} 
+
 header {
-    background-color: #0051ff;
+    /* background-color: #0051ff; */
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    /* padding-left: 150px;  */
+
+} 
+/* header {
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: row;
     padding-left: 150px;
 
-}
+} */
 
 
 
 
 .header-image {
-    /* margin-left: 120px; */
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px;
+    padding: 50px 50px 50px 50px; */
     width: 100px;
     height: 150px;
+} 
 
-}
+/* .pic-and-h1{
+    background-color: red;
+    color: white 
+    margin: 1500px
+} */
 
 
 
 h1 { 
     color: white;
-    flex-direction: row;
-    /* float: right; */
-    /* margin-top: 190px;
-    margin-right: 120px; */
-    /* text-align: right; */
-    /* padding-bottom: 150px; */
-}
+    /* margin: 150px;  */
+     /* flex-direction: column;   */
+    float: right; 
+    padding-top: 15px;
+    padding-left: 15px;
+} 
 
-.vertical-nav {
+
+
+/* .vertical-nav {
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -59,37 +229,30 @@ h1 {
     color: white;
     padding: 10px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none
+}   */
 
 
-}
 
 
 
-/* 
-nav {
-    background-color: black;
-    color: white;
-    text-decoration: none;
-} */
-
-
-  /* Style the navigation links */
+/* Style the navigation links 
 #learning-activities-list {
-    list-style: none; /* Remove default list styles */
+    list-style: none; Remove default list styles 
 
 
-}
+}*/
 
+/* Increment the counter for each list item*/
 #learning-activities-list li {
-    counter-increment: item; /* Increment the counter for each list item */
+    counter-increment: item; 
     
 }  
 
-
+/* Remove default list styles*/
 #learning-activities-list li a:before {
     content: counter(item, decimal-leading-zero) ":";
-    list-style: none; /* Remove default list styles */
+    list-style: none; 
     color: black;
 
 }
@@ -98,45 +261,47 @@ nav {
     font-size: 12px;
     
     
-}
+} 
 
-  /* Style the navigation links */
+/* Style the navigation links  */
     nav #card-nav li a{
     text-align: center;
     color: white;
     text-decoration: none;
     font-size: 12px;
-    /* Add some space between list items */
+    background-color: black;
 }
+    /* Add some space between list items  */
 
 
-main {
-    display: flex;
-    /*feedback*/
-    flex-direction: column;
-    /* Allow items to wrap to the next line if there's not enough space */
-    /* flex-wrap: wrap; */
-}
 
-.card {
+/* main {
+    display: flex; */
+    /* feedback */
+    /* flex-direction: column;
+    
+}  */
+
+
+/*.card {
     
     /* Distribute available space equally among the child elements */
-    flex: 1;
+    /* flex: 1; */
     /* Add some spacing between the elements */
-    margin: 10px;
-}
-
-
-
+    /* margin: 10px; 
+}*/
 
 
 /* Learning activity*/
 h2 {
     color: black;
     text-align: center;
-    /* padding-right: 800px; */
+    /* padding-right: 80px; */
 
-}
+
+} 
+
+
 
 /*Information*/
 h3 {
@@ -145,22 +310,19 @@ h3 {
     text-align: center;
 } 
 
-
-
-
-
-
 p {
     text-align: center;
 }
 
-/*footer*/
+
 footer{
     background-color: #0051ff;
     color: black;
     text-align: center;
     padding: 10px;
 }
+
+
 
 #lastModified {
     color: yellow;

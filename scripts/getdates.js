@@ -6,3 +6,5 @@ copyrightParagraph.innerHTML = + currentYear;
 var lastModifiedParagraph = document.getElementById('lastModified');
 var lastModifiedDate = document.lastModified;
 lastModifiedParagraph.innerHTML = 'Last Modified' + lastModifiedDate;
+
+// for week 03
