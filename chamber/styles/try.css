@@ -1,0 +1,34 @@
+/* Styles for the hamburger button */
+.hamburger-btn {
+    display: none; /* Hide the button by default on larger screens */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+}
+
+.hamburger-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Media query to display the button on smaller screens */
+@media (max-width: 768px) {
+    .hamburger-btn {
+        display: block; /* Display the button on smaller screens */
+    }
+
+    .navigation-menu {
+        display: none; /* Hide the navigation menu by default on smaller screens */
+    }
+
+    .navigation-menu.active {
+        display: block; /* Display the navigation menu when active */
+    }
+}

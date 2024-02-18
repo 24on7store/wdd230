@@ -1,3 +1,145 @@
+@media(max-width:768px){
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 150px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 10px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+    .navigation-btn {
+        display: flex;
+        align-items: center;
+    }
+    
+
+    .hamburger {
+        display: block;
+    }
+
+    .navigation-btn a {
+        display: none;
+    }
+
+    .navigation-btn.open .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .navigation-btn.open .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navigation-btn.open .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* my addind codes */
+    .event, .weather {
+        flex: 0 0 100%; /* Each item takes full width on small screens */
+        margin-right: 15px; /* No margin on small screens */
+        margin-bottom: 20px; /* Add margin bottom for spacing */
+    }
+    
+
+    .details-container {
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+    .information1, .information2, .information3 {
+        margin: 10px;
+        position: relative;
+        top: -110px;
+    }
+
+
+    footer {
+        flex-direction: column;
+        align-items: center; 
+        position: relative;
+        top: -110px;
+        width: auto;
+        height: 350px;
+
+    }
+
+    .footer-img img{
+        order: 1;
+        position: relative;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 35px;
+        top: 15PX;
+        right: 100%;
+        
+        
+    }
+    
+    .footer-info {
+        order: 1;
+        color: white;
+        margin-top: 20px;
+        position: relative;
+        top: -100px;
+        left: 12%;
+    
+    }
+    
+    .footer-p1{
+        color: white;
+        position: relative;
+        top: -15px; 
+    }
+
+    .footer-address a{
+        text-align: center;
+        align-items: center;
+        position: relative;
+        left: -350px;
+        top: -120px;
+        font-size: 18px;
+        
+    }
+
+    .copy-right {
+        /* order: 3; 
+        color: blue; */
+        position: relative; 
+        top: -90px;
+        text-align: center;
+        align-items: center;
+        right: 2%;
+    } 
+    
+} 
 
 
 
