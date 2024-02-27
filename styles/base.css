@@ -32,12 +32,8 @@ a{
     justify-content: space-between; 
     align-items: center; 
     /* padding: 0 auto; */
-    padding:0 100%; 
+    padding: 0; 
     background-color: black;
- 
-    
-
-
 }
 /* .navbar{
     min-height: 10px;
@@ -98,76 +94,57 @@ a{
 } 
 
 
-
-/*Double check*/
-
-/* @media(max-width:768px){
-    .hamburger{
-        display: block;
-    }
-
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu{
-        position: fixed;
-        left: -100%;
-        top: 150px;
-        gap: 0;
-        flex-direction: column;
-        background-color: black;
-        width: 100%;
-        transition: 0.3s;
-    }
- */
-
-
-
-    /* .nav-menu{
-        position: fixed;
-        left: -100%;
-        top: 200px;
-        gap: 0;
-        flex-direction: column;
-        background-color: black;
-        width: 100%;
-        transition: 0.3s;
-    } */
-
-
-
-    /* .nav-item{
-        margin: 10px 0;
-    }
-
-    .nav-menu.active{
-        left: 0;
-    }
-}  */
-
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     /* max-width: 800px;  */
-    margin: 0 auto; 
+    margin: 0 auto;
 
 } 
-
+/* 
 main { 
-    /* max-width: 800px; */
     margin: 0 auto;
     display: grid;
-    /* grid-template-columns: 1fr; */
     gap: 20px;
+}  */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 400px;
 } 
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    flex: 55%; 
+    background-color: silver;
+    box-shadow: 10px 1px 10px 1px black;
+    margin-left: 15px;
+    padding: 20px;
+    top: 360px;
+    
+
+}
+.card2 {
+    flex: 1;
+    position: relative;
+    background-color: silver;
+    box-shadow: 5px 1px 5px 1px black;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 20px;
+    text-align: center;
+    top: 360px;
+}
+
+
 
 header {
     /* background-color: #0051ff; */
@@ -196,7 +173,39 @@ header {
     padding: 50px 50px 50px 50px; */
     width: 100px;
     height: 150px;
+    box-shadow: inset 2px 1px 2px 1px black;
 } 
+
+.sub{
+    position: relative;
+    top: 770px;
+    text-align: left;
+    margin-left: 25px;
+    width: 97%;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 20px;
+    margin-right: 200px;
+    aspect-ratio: 1000 / 100;
+
+}
+
+.hero-image img{
+    width: 97%;
+    height: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    position: relative;
+    bottom: 250px;
+    z-index: -10;
+    
+
+}
 
 /* .pic-and-h1{
     background-color: red;
@@ -215,33 +224,6 @@ h1 {
     padding-left: 15px;
 } 
 
-
-
-/* .vertical-nav {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    color: white;
-
-
-}
-.vertical-nav a {
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none
-}   */
-
-
-
-
-
-/* Style the navigation links 
-#learning-activities-list {
-    list-style: none; Remove default list styles 
-
-
-}*/
 
 /* Increment the counter for each list item*/
 #learning-activities-list li {
@@ -275,23 +257,6 @@ h1 {
 
 
 
-/* main {
-    display: flex; */
-    /* feedback */
-    /* flex-direction: column;
-    
-}  */
-
-
-/*.card {
-    
-    /* Distribute available space equally among the child elements */
-    /* flex: 1; */
-    /* Add some spacing between the elements */
-    /* margin: 10px; 
-}*/
-
-
 /* Learning activity*/
 h2 {
     color: black;
@@ -320,11 +285,10 @@ footer{
     color: black;
     text-align: center;
     padding: 10px;
+    position: relative;
+    top: 750px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 500px;
 }
 
-
-
-#lastModified {
-    color: yellow;
-    font-size: 12px;
-}

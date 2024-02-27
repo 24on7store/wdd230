@@ -1,0 +1,110 @@
+body {
+    max-width: 600px; /* Limiting the body width to 1200 pixels */
+    margin: 0 auto; /* Centering the body horizontally */
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px silver;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+} 
+
+    header{
+        background-color: lightblue;
+        text-shadow: 2px 1px 1px lightslategray;
+        text-align: center;
+    }
+
+
+    /*Pseudo class */
+    header:hover {
+        background-color: yellow;
+    }
+    
+    div {
+        background-color: green;
+        color: white;
+        padding: 25px;
+        text-align: center;
+        font-size: 18px;
+
+    }
+    /*Pseudo class */
+    div:hover {
+        background-color: black;
+    }
+
+    /*The Book of Mormon */
+    h1::first-letter {
+        color: brown;
+        font-size: 50px;
+    }
+
+    /*Introduction */
+    h2::first-letter {
+        color: brown;
+        font-size: 50px;
+    }
+    
+    
+    /*To the reader */
+    h3::first-line {
+        color: red;
+        background-color: silver;
+        text-shadow: 2px 1px 1px black;
+        box-shadow: 10px 1px 10px 1px black;
+        font-size: 30px;
+        
+    }
+     /*To the reader */
+    h3::first-letter {
+        color: blue;
+        font-size: 50px;
+        font-family:sans-serif
+
+    }
+
+
+    /*First Paragraph-letter */
+    p#first::first-letter {
+        color: blue;
+        font-size: 70px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    /*First Paragraph-line*/
+    p#first::first-line {
+        color: yellow;
+
+        
+    }
+    
+
+    /* words to know Pseudo class */
+    p i:first-child {
+        color: blue;
+        font-size: 20px;
+        
+        
+    }
+    
+    /* for highlighting Pseudo class */
+    p b:first-child {
+            color: yellow;
+            font-size: 30px;
+
+    }
+    
+    /*selection */
+    p b::selection {
+            color: black;
+            background: blue;   
+    }
+
+
+
+
+
+
+

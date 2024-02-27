@@ -29,6 +29,8 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
+
+    
     .nav-menu{
         position: fixed;
         left: -100%;
@@ -47,4 +49,29 @@
     .nav-menu.active{
         left: 0;
     }
+
+        .card, .card2 {
+            flex: 0 0 100%; 
+            margin-right: 15px; 
+            margin-bottom: 20px; 
+            position: relative;
+            top: -200px;
+        }
+    
+        .sub{
+            position: relative;
+            text-align: left;
+            margin-left: 25px;
+            top: 200px;
+        }
+    
+        footer{
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            top: 200px;
+            margin-left: 20px;
+            margin-right: auto;
+            margin-bottom: -100%;
+        }
 } 
