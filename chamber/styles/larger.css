@@ -14,6 +14,25 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
+
+    header {
+        background-color: #e89024;
+        width: auto;
+        height: 100px;
+        
+    }
+    
+    .social-media img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 1px;
+        position: relative;
+        top: -55px;
+        left: 70%;
+    }
+
+
     .nav-menu{
         position: fixed;
         left: -100%;
@@ -34,8 +53,11 @@
     }
 
     .navigation-btn {
-        display: flex;
-        align-items: center;
+        position: absolute;
+        top: -15px;
+        /*display: flex;
+        align-items: center; */
+        background-color: blue;
     }
     
 
@@ -45,6 +67,10 @@
 
     .navigation-btn a {
         display: none;
+        font-size: 20px;
+        text-align: left;
+        
+
     }
 
     .navigation-btn.open .bar:nth-child(1) {
