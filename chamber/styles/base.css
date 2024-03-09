@@ -2,9 +2,10 @@ header {
     background-color: #e89024;
     color: white;
     width: auto;
-    height: 70px;
+    height: 110px;
+    word-spacing: 0.50rem;
     position: relative; /* Added to position hamburger button */
-}
+}  
 
 .logo img {
     width: 50px;
